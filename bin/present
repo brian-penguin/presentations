@@ -50,7 +50,7 @@
                   :quit (do (println "Goodbye!") nil)))))))))
 
 (defn print-usage []
-  (println "Usage: ./bin/present2 <directory>")
+  (println "Usage: ./bin/present <directory>")
   (println "  Shows all markdown files in the directory using glow")
   (println "  Navigation:")
   (println "    Enter/j/n - next slide")
