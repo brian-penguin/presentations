@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Read markdown file into a variable
+markdown_content=$(glow onboarding-offboarding-and-why-it-matters.md)
+
+# Split the content into pages based on Markdown headers (e.g., '# Title')
+# This assumes each page starts with a heading that begins with a '#'
+pages=($(echo "$markdown_content" | awk 'BEGIN{RS="\n#"} {if (NR > 1) print "#" $0}'))
+
+# Loop through each page
+for page in "${pages[@]}"; do
+  clear  # Clear the terminal screen
+  echo "$page"  # Display the current page
+
+  # Wait for user input to move to the next page
+  read -p "Press Enter to continue to the next page..."
+done
+
