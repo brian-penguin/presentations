@@ -14,3 +14,6 @@ Also to make a CLI presentation for them!
 1. Add slides in an ordered fashion! The ordered presented is the way it will be rendered
 1. run `./bin/present <DIRECTORY>` to start presentation
 
+if you want an individual section preview you can use glow directly
+`glow <PATH-TO-FILE>`
+
