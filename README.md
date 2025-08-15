@@ -5,7 +5,7 @@
 The goal for this repo is to capture all the things I write for Presentations!
 Also to make a CLI presentation for them!
 
-![](https://github.com/brian-penguin/presentations/bb-glow-presentation.gif)
+![](https://github.com/brian-penguin/presentations/blob/main/bb-glow-presentation.gif)
 
 ### Requirements
 - [Glow](https://github.com/charmbracelet/glow)
